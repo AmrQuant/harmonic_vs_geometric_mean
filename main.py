@@ -19,13 +19,13 @@ geometric_mean_value = geometric_mean(values)
 harmonic_mean_value = harmonic_mean(values)
 
 # طباعة المتوسطات
-print("المتوسط الحسابي:", arithmetic_mean)
-print("المتوسط الهندسي:", geometric_mean_value)
-print("المتوسط التوافقي:", harmonic_mean_value)
+print("Arithmetic Mean:", arithmetic_mean)
+print("Geomertric Mean:", geometric_mean_value)
+print("Harmonic Mean:", harmonic_mean_value)
 
 # إنشاء الرسم البياني
 means = [arithmetic_mean, geometric_mean_value, harmonic_mean_value]
-mean_names = ['المتوسط الحسابي', 'المتوسط الهندسي', 'المتوسط التوافقي']
+mean_names = ['Arithmetic Mean', 'المتوسط الهندسي', 'المتوسط التوافقي']
 
 plt.figure(figsize=(10, 6))
 plt.bar(mean_names, means, color=['blue', 'green', 'red'])
